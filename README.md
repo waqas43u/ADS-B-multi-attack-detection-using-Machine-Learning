@@ -1,3 +1,13 @@
+Paper Reference:
+@article{ahmed2026toward,
+  title={Toward realistic and lightweight intrusion detection for ADS-B: A comprehensive threat model and multi-attack machine learning evaluation},
+  author={Ahmed, Waqas and Masood, Ammar and Manzoor, Jawad},
+  journal={Array},
+  pages={101012},
+  year={2026},
+  publisher={Elsevier}
+}
+
 # ADS-B Attack Detection with Classical Machine Learning
 
 This repository contains a modular Python version of the original notebook `Final_all_models.ipynb` for ADS-B attack detection.
