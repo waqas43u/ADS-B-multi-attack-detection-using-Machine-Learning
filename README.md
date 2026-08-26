@@ -1,6 +1,6 @@
 # ADS-B Attack Detection with Classical Machine Learning
 
-This repository contains a modular Python version of the original notebook `Final_all_models.ipynb`. The original notebook is not modified. The code is split into standard Python files for GitHub upload and reproducible execution.
+This repository contains a modular Python version of the original notebook `Final_all_models.ipynb` for ADS-B attack detection.
 
 ## Models
 
@@ -66,22 +66,3 @@ The script writes these files to the output directory:
 - `{model}_learning_curve.png`
 - `{model}_model.pkl` when model saving is enabled
 - `scaler.pkl` when model saving is enabled
-
-## Recommended Files To Upload To GitHub
-
-Recommended for result reproducibility and paper comparison:
-
-- `model_summary_metrics.csv`
-- `model_comparison_table.csv`
-- `knn_classification_report.csv`
-- `svm_classification_report.csv`
-- `xgboost_classification_report.csv`
-- `knn_confusion_matrix.csv`
-- `svm_confusion_matrix.csv`
-- `xgboost_confusion_matrix.csv`
-- `knn_false_rates.csv`
-- `svm_false_rates.csv`
-- `xgboost_false_rates.csv`
-- learning-curve PNG files, if used in the paper
-
-Usually avoid uploading the full dataset, `.pkl` model files, and `.zip` archives unless licensing and file-size policies allow it. If the dataset is public, provide a link and instructions instead.
